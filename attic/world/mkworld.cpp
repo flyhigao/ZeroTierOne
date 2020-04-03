@@ -83,6 +83,18 @@ int main(int argc,char **argv)
 	const uint64_t id = ZT_WORLD_ID_EARTH;
 	const uint64_t ts = 1567191349589ULL; // August 30th, 2019
 
+	//ali_cn
+        roots.push_back(World::Root());
+        roots.back().identity = Identity("31d04a20b1:0:ea585712812fbc35ac5b3d9837128d1d7a29bf75ea62243600ea0c1ae55e8a0a1919b05f34bfa9b04dddda63c223104b9a70bfc2761f1a164c1f675f35e10a38");
+        roots.back().stableEndpoints.push_back(InetAddress("101.37.27.87/9993"));
+
+
+        //ali_sg
+        roots.push_back(World::Root());
+        roots.back().identity = Identity("da571c78ac:0:25e323e1ad7f131c443a42e05493d24d1a32bb8d036c0283315e5456f7de5b6daf470c57a3986e82453d45cff0e9ec20c894167ab5d3609208eb5695f7e97c0b");
+        roots.back().stableEndpoints.push_back(InetAddress("47.88.230.255/9993"));
+
+
 	// Los Angeles
 	roots.push_back(World::Root());
 	roots.back().identity = Identity("3a46f1bf30:0:76e66fab33e28549a62ee2064d1843273c2c300ba45c3f20bef02dbad225723bb59a9bb4b13535730961aeecf5a163ace477cceb0727025b99ac14a5166a09a3");
