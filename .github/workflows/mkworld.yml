@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
+    - name: initenv
       uses: actions/checkout@master
     
-    - name: build world
+    - name: build world.bin
       working-directory: ./attic/world
       run: |
         source ./build.sh
