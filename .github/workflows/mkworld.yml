@@ -24,7 +24,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     
-    - name build world
+    - name: build world
       working-directory: ./attic/world
       run: |
         source ./build.sh
