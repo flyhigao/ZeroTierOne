@@ -1,0 +1,37 @@
+name: Build_mkworld
+
+on: 
+  #release:
+  #  types: [published]
+
+  #push:
+  #  branches: 
+  #    - master
+  #  tags:
+  #    - v1.*
+
+  #schedule:
+  #  - cron: 0 8 * * 5
+  
+  watch:
+    types: [started]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    
+    - name build world
+      working-directory: ./attic/world
+      run: |
+        source ./build.sh
+        ./mkworld
+      
+    - name : Upload artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: worldbin
+        path: attic/world/
