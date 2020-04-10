@@ -81,7 +81,9 @@ int main(int argc,char **argv)
 	std::vector<World::Root> roots;
 
 	const uint64_t id = ZT_WORLD_ID_EARTH;
-	const uint64_t ts = 1567191349589ULL; // August 30th, 2019
+	//const uint64_t ts = 1567191349589ULL; // August 30th, 2019
+	const uint64_t ts = 1586488850123ULL; // April 10th, 2020
+
 
     //ali_sg
     roots.push_back(World::Root());
