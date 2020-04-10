@@ -25,8 +25,11 @@ jobs:
       uses: actions/checkout@master
     
     - name: build world.bin
-      working-directory: ./attic/world
+      #working-directory: ./attic/world
       run: |
+        gcc -v 
+        uname -a
+        cd attic/world/
         source ./build.sh
         ./mkworld
       
