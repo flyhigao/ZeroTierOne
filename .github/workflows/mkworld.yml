@@ -37,4 +37,4 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: worldbin
-        path: attic/world/
+        path: attic/world/world.bin
