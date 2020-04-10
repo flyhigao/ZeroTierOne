@@ -27,10 +27,10 @@ jobs:
     - name: build world.bin
       #working-directory: ./attic/world
       run: |
-        gcc -v 
-        uname -a
         cd attic/world/
         source ./build.sh
+        echo "ready get world.bin"
+        rm world.bin -f
         ./mkworld
       
     - name : Upload artifact
