@@ -31,7 +31,7 @@
  * of one root or its withdrawal due to compromise without taking the whole net
  * down.
  */
-#define ZT_WORLD_MAX_ROOTS 4
+#define ZT_WORLD_MAX_ROOTS 10
 
 /**
  * Maximum number of stable endpoints per root (sanity limit, okay to increase)
