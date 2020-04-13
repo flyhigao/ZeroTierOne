@@ -86,9 +86,9 @@ int main(int argc,char **argv)
 
 
     //ali_sg
-    //roots.push_back(World::Root());
-    //roots.back().identity = Identity("da571c78ac:0:25e323e1ad7f131c443a42e05493d24d1a32bb8d036c0283315e5456f7de5b6daf470c57a3986e82453d45cff0e9ec20c894167ab5d3609208eb5695f7e97c0b");
-    //roots.back().stableEndpoints.push_back(InetAddress("47.88.230.255/9993"));
+    roots.push_back(World::Root());
+    roots.back().identity = Identity("da571c78ac:0:25e323e1ad7f131c443a42e05493d24d1a32bb8d036c0283315e5456f7de5b6daf470c57a3986e82453d45cff0e9ec20c894167ab5d3609208eb5695f7e97c0b");
+    roots.back().stableEndpoints.push_back(InetAddress("47.88.230.255/9993"));
 
     //inner_test_10.3.0.100
     //roots.push_back(World::Root());
@@ -112,9 +112,9 @@ int main(int argc,char **argv)
 	roots.back().stableEndpoints.push_back(InetAddress("147.75.92.2/443"));
 	
 	// Miami
-	roots.push_back(World::Root());
-	roots.back().identity = Identity("de8950a8b2:0:1b3ada8251b91b6b6fa6535b8c7e2460918f4f729abdec97d3c7f3796868fb02f0de0b0ee554b2d59fc3524743eebfcf5315e790ed6d92db5bd10c28c09b40ef");
-	roots.back().stableEndpoints.push_back(InetAddress("207.246.73.245/443"));
+	//roots.push_back(World::Root());
+	//roots.back().identity = Identity("de8950a8b2:0:1b3ada8251b91b6b6fa6535b8c7e2460918f4f729abdec97d3c7f3796868fb02f0de0b0ee554b2d59fc3524743eebfcf5315e790ed6d92db5bd10c28c09b40ef");
+	//roots.back().stableEndpoints.push_back(InetAddress("207.246.73.245/443"));
 
 
 	// Alice
