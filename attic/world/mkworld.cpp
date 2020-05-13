@@ -85,10 +85,10 @@ int main(int argc,char **argv)
 	const uint64_t ts = 1586488850123ULL; // April 10th, 2020
 
 
-    //ali_sg
+    //ali_hk2
     roots.push_back(World::Root());
-    roots.back().identity = Identity("da571c78ac:0:25e323e1ad7f131c443a42e05493d24d1a32bb8d036c0283315e5456f7de5b6daf470c57a3986e82453d45cff0e9ec20c894167ab5d3609208eb5695f7e97c0b");
-    roots.back().stableEndpoints.push_back(InetAddress("47.88.230.255/9993"));
+    roots.back().identity = Identity("200dda6bb6:0:8f4586ea536f952a4ea82cf1011fa3f27c9fcfe026b675fee3565bfec9f43e38f5c8e44a06570f55789da95150faf713c1e3cab4af2ed8b24227bbfd77212590");
+    roots.back().stableEndpoints.push_back(InetAddress("47.57.149.237/9993"));
 
     //inner_test_10.3.0.100
     //roots.push_back(World::Root());
@@ -96,20 +96,20 @@ int main(int argc,char **argv)
     //roots.back().stableEndpoints.push_back(InetAddress("10.3.0.100/9993"));
 
 	//ali_cn_ztncui
-    roots.push_back(World::Root());
-    roots.back().identity = Identity("31d04a20b1:0:ea585712812fbc35ac5b3d9837128d1d7a29bf75ea62243600ea0c1ae55e8a0a1919b05f34bfa9b04dddda63c223104b9a70bfc2761f1a164c1f675f35e10a38");
-    roots.back().stableEndpoints.push_back(InetAddress("101.37.27.87/9993"));
+    #roots.push_back(World::Root());
+    #roots.back().identity = Identity("31d04a20b1:0:ea585712812fbc35ac5b3d9837128d1d7a29bf75ea62243600ea0c1ae55e8a0a1919b05f34bfa9b04dddda63c223104b9a70bfc2761f1a164c1f675f35e10a38");
+    #roots.back().stableEndpoints.push_back(InetAddress("101.37.27.87/9993"));
 
 	// Los Angeles
-	roots.push_back(World::Root());
-	roots.back().identity = Identity("3a46f1bf30:0:76e66fab33e28549a62ee2064d1843273c2c300ba45c3f20bef02dbad225723bb59a9bb4b13535730961aeecf5a163ace477cceb0727025b99ac14a5166a09a3");
-	roots.back().stableEndpoints.push_back(InetAddress("185.180.13.82/9993"));
+	#roots.push_back(World::Root());
+	#roots.back().identity = Identity("3a46f1bf30:0:76e66fab33e28549a62ee2064d1843273c2c300ba45c3f20bef02dbad225723bb59a9bb4b13535730961aeecf5a163ace477cceb0727025b99ac14a5166a09a3");
+	#roots.back().stableEndpoints.push_back(InetAddress("185.180.13.82/9993"));
 
 
 	// Tokyo
-	roots.push_back(World::Root());
-	roots.back().identity = Identity("34e0a5e174:0:93efb50934788f856d5cfb9ca5be88e85b40965586b75befac900df77352c145a1ba7007569d37c77bfe52c0999f3bdc67a47a4a6000b720a883ce47aa2fb7f8");
-	roots.back().stableEndpoints.push_back(InetAddress("147.75.92.2/443"));
+	#roots.push_back(World::Root());
+	#roots.back().identity = Identity("34e0a5e174:0:93efb50934788f856d5cfb9ca5be88e85b40965586b75befac900df77352c145a1ba7007569d37c77bfe52c0999f3bdc67a47a4a6000b720a883ce47aa2fb7f8");
+	#roots.back().stableEndpoints.push_back(InetAddress("147.75.92.2/443"));
 	
 	// Miami
 	//roots.push_back(World::Root());
