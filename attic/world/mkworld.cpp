@@ -96,9 +96,9 @@ int main(int argc,char **argv)
     //roots.back().stableEndpoints.push_back(InetAddress("10.3.0.100/9993"));
 
 	//ali_cn_ztncui
-    //roots.push_back(World::Root());
-    //roots.back().identity = Identity("31d04a20b1:0:ea585712812fbc35ac5b3d9837128d1d7a29bf75ea62243600ea0c1ae55e8a0a1919b05f34bfa9b04dddda63c223104b9a70bfc2761f1a164c1f675f35e10a38");
-    //roots.back().stableEndpoints.push_back(InetAddress("101.37.27.87/9993"));
+    roots.push_back(World::Root());
+    roots.back().identity = Identity("31d04a20b1:0:ea585712812fbc35ac5b3d9837128d1d7a29bf75ea62243600ea0c1ae55e8a0a1919b05f34bfa9b04dddda63c223104b9a70bfc2761f1a164c1f675f35e10a38");
+    roots.back().stableEndpoints.push_back(InetAddress("101.37.27.87/9993"));
 
 	// Los Angeles
 	//roots.push_back(World::Root());
