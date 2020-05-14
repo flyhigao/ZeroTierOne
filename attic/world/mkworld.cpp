@@ -101,15 +101,15 @@ int main(int argc,char **argv)
     roots.back().stableEndpoints.push_back(InetAddress("101.37.27.87/9993"));
 
 	// Los Angeles
-	//roots.push_back(World::Root());
-	//roots.back().identity = Identity("3a46f1bf30:0:76e66fab33e28549a62ee2064d1843273c2c300ba45c3f20bef02dbad225723bb59a9bb4b13535730961aeecf5a163ace477cceb0727025b99ac14a5166a09a3");
-	//roots.back().stableEndpoints.push_back(InetAddress("185.180.13.82/9993"));
+	roots.push_back(World::Root());
+	roots.back().identity = Identity("3a46f1bf30:0:76e66fab33e28549a62ee2064d1843273c2c300ba45c3f20bef02dbad225723bb59a9bb4b13535730961aeecf5a163ace477cceb0727025b99ac14a5166a09a3");
+	roots.back().stableEndpoints.push_back(InetAddress("185.180.13.82/9993"));
 
 
 	// Tokyo
-	//roots.push_back(World::Root());
-	//roots.back().identity = Identity("34e0a5e174:0:93efb50934788f856d5cfb9ca5be88e85b40965586b75befac900df77352c145a1ba7007569d37c77bfe52c0999f3bdc67a47a4a6000b720a883ce47aa2fb7f8");
-	//roots.back().stableEndpoints.push_back(InetAddress("147.75.92.2/443"));
+	roots.push_back(World::Root());
+	roots.back().identity = Identity("34e0a5e174:0:93efb50934788f856d5cfb9ca5be88e85b40965586b75befac900df77352c145a1ba7007569d37c77bfe52c0999f3bdc67a47a4a6000b720a883ce47aa2fb7f8");
+	roots.back().stableEndpoints.push_back(InetAddress("147.75.92.2/443"));
 	
 	// Miami
 	//roots.push_back(World::Root());
